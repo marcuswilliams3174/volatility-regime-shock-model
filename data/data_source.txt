@@ -1,0 +1,8 @@
+Data sourced via Yahoo Finance using yfinance API:
+
+- CL=F (WTI Crude Oil Futures)
+- NG=F (Natural Gas Futures)
+- SPY (S&P 500 ETF)
+
+Time period: 2015–present
+Frequency: Daily
