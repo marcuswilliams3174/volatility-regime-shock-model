@@ -6,7 +6,7 @@
 
 ---
 
-## 🔑 Key Message
+## Key Message
 
 This framework analyzes how volatility regimes and shock events evolve across energy commodities and equities, and how cross-asset correlations behave under different market stress conditions.
 
@@ -14,7 +14,7 @@ The model identifies **calm, normal, and stress regimes**, and evaluates how sys
 
 ---
 
-## 📊 Key Insights
+## Key Insights
 
 - Energy markets (WTI & natural gas) exhibit significantly stronger volatility clustering than equities  
 - Natural gas shows the highest frequency of extreme shock events  
@@ -23,24 +23,27 @@ The model identifies **calm, normal, and stress regimes**, and evaluates how sys
 
 ---
 
-## 📈 Exhibits
+## Exhibits
 
 ### Exhibit 1 — Cross-Asset Correlation Structure
-![Correlation Heatmap](results/correlation_heatmap.png)
+<img width="635" height="490" alt="Heatmap" src="https://github.com/user-attachments/assets/5be6d291-ae6f-406e-80dc-a93497e8d3ed" />
+
 
 Correlation matrix of WTI, natural gas, and S&P 500 returns. Energy assets exhibit stronger co-movement, particularly during stress regimes.
 
 ---
 
 ### Exhibit 2 — Volatility Regime Distribution (WTI)
-![Regime Chart](results/regime_chart.png)
+<img width="1787" height="687" alt="Regime-Shaded Volatility Chart" src="https://github.com/user-attachments/assets/c14183c8-f487-4f70-8045-0f10089ce482" />
+
 
 Volatility regimes classified as Calm / Normal / Stress using distribution-based thresholds. Energy markets spend majority time in low-volatility regimes with clustering during macro shocks.
 
 ---
 
 ### Exhibit 3 — Shock Event Distribution
-![Shock Chart](results/shock_chart.png)
+<img width="989" height="490" alt="Shock Bar Char" src="https://github.com/user-attachments/assets/f4b0437f-9a78-48ca-b885-37b195e2990e" />
+
 
 Shock events defined as returns exceeding 2× rolling volatility. Natural gas exhibits the highest frequency of extreme moves due to supply-demand sensitivity.
 
